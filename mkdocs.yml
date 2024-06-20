@@ -71,6 +71,7 @@ nav:
     - Dart: https://emacs-lsp.github.io/lsp-dart
     - Dhall: page/lsp-dhall.md
     - Dockerfile: page/lsp-dockerfile.md
+    - Earthfile: page/lsp-earthly.md
     - Elixir: page/lsp-elixir.md
     - Elm: page/lsp-elm.md
     - Emmet: page/lsp-emmet.md
@@ -108,6 +109,7 @@ nav:
     - Magik: page/lsp-magik.md
     - Markdown: page/lsp-markdown.md
     - Marksman: page/lsp-marksman.md
+    - Meson: page/lsp-meson.md
     - Move: page/lsp-move.md
     - MDX: page/lsp-mdx.md
     - MSSQL: https://emacs-lsp.github.io/lsp-mssql
@@ -152,6 +154,7 @@ nav:
     - Scala: https://emacs-lsp.github.io/lsp-metals
     - Semgrep: page/lsp-semgrep.md
     - ShaderLab: page/lsp-shader.md
+    - SQL (sql): page/lsp-sql.md
     - SQL (sqls): page/lsp-sqls.md
     - Standard ML (Millet): page/lsp-sml.md
     - Svelte: page/lsp-svelte.md

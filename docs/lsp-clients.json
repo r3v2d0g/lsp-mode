@@ -249,6 +249,15 @@
     "debugger": "Not available"
   },
   {
+    "name": "earthly",
+    "full-name": "Earthfile language server",
+    "server-name": "earthlyls",
+    "server-url": "https://github.com/glehmann/earthlyls",
+    "installation": "cargo install earthlyls",
+    "lsp-install-server": "earthlyls",
+    "debugger": "Not available"
+  },
+  {
     "name": "elixir",
     "full-name": "Elixir",
     "server-name": "elixir-lsp/elixir-ls",
@@ -395,8 +404,8 @@
     "name": "groovy",
     "full-name": "Groovy",
     "server-name": "groovy-language-server",
-    "server-url": "https://github.com/prominic/groovy-language-server",
-    "installation-url": "https://github.com/prominic/groovy-language-server#build",
+    "server-url": "https://github.com/GroovyLanguageServer/groovy-language-server",
+    "installation-url": "https://github.com/GroovyLanguageServer/groovy-language-server#build",
     "debugger": "Not available"
   },
   {
@@ -589,6 +598,14 @@
     "server-name": "marksman",
     "server-url": "https://github.com/artempyanykh/marksman",
     "installation-url": "https://github.com/artempyanykh/marksman",
+    "debugger": "Not available"
+  },
+  {
+    "name": "meson",
+    "full-name": "Meson",
+    "server-name": "mesonlsp",
+    "server-url": "https://github.com/JCWasmx86/mesonlsp",
+    "installation-url": "https://github.com/JCWasmx86/mesonlsp",
     "debugger": "Not available"
   },
   {
@@ -988,6 +1005,14 @@
     "server-name": "sorbet",
     "server-url": "https://github.com/sorbet/sorbet",
     "installation-url": "https://sorbet.org/docs/adopting#step-1-install-dependencies",
+    "debugger": "Not available"
+  },
+  {
+    "name": "sql",
+    "full-name": "SQL (sql)",
+    "server-name": "sql-language-server",
+    "server-url": "https://github.com/joe-re/sql-language-server",
+    "installation": "npm i -g sql-language-server",
     "debugger": "Not available"
   },
   {
