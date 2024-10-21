@@ -566,6 +566,12 @@ belongs to."
   :group 'lsp-rust-analyzer
   :package-version '(lsp-mode . "8.0.0"))
 
+(defcustom lsp-rust-analyzer-cargo-target-dir nil
+  "Whether to use a sub-directory of the target directory to avoid locking."
+  :type `boolean
+  :group 'lsp-rust-analyzer
+  :package-version '(lsp-mode . "9.0.0"))
+
 (defcustom lsp-rust-analyzer-cargo-watch-enable t
   "Enable Cargo watch."
   :type 'boolean
@@ -850,7 +856,7 @@ or JSON objects in `rust-project.json` format."
 other commands within the workspace.  Useful for setting RUSTFLAGS."
   :type '(alist :key-type string :value-type string)
   :group 'lsp-rust-analyzer
-  :package-version '(lsp-mode . "9.0.0"))
+  :package-version '(lsp-mode . "9.0.0")o)
 
 (defconst lsp-rust-notification-handlers
   '(("rust-analyzer/publishDecorations" . (lambda (_w _p)))))
@@ -1704,6 +1710,7 @@ https://github.com/rust-lang/rust-analyzer/blob/master/docs/dev/lsp-extensions.m
                           :extraArgs ,lsp-rust-analyzer-cargo-extra-args
                           :extraEnv ,lsp-rust-analyzer-cargo-extra-env
                           :target ,lsp-rust-analyzer-cargo-target
+                          :targetDir ,(lsp-json-bool lsp-rust-analyzer-cargo-target-dir)
                           :runBuildScripts ,(lsp-json-bool lsp-rust-analyzer-cargo-run-build-scripts)
                           ;; Obsolete, but used by old Rust-Analyzer versions
                           :loadOutDirsFromCheck ,(lsp-json-bool lsp-rust-analyzer-cargo-run-build-scripts)
