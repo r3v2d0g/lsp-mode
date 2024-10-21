@@ -55,10 +55,13 @@ nav:
     - AWK: page/lsp-awk.md
     - Bash: page/lsp-bash.md
     - Beancount: page/lsp-beancount.md
+    - Buf/Protocol Buffers (Buf CLI): page/lsp-buf.md
+    - Buf/Protocol Buffers (Buf Language Server): page/lsp-bufls.md
     - Camel: page/lsp-camel.md
     - C++ (ccls): page/lsp-ccls.md
     - C++ (clangd): page/lsp-clangd.md
     - C# (omnisharp-roslyn): page/lsp-csharp-omnisharp.md
+    - C# (csharp-roslyn): page/lsp-csharp-roslyn.md
     - C# (csharp-ls): page/lsp-csharp-ls.md
     - Clojure: page/lsp-clojure.md
     - CMake: page/lsp-cmake.md
@@ -79,6 +82,7 @@ nav:
     - ESLint: page/lsp-eslint.md
     - F#: page/lsp-fsharp.md
     - Fortran: page/lsp-fortran.md
+    - Futhark: page/lsp-futhark.md
     - GDScript: page/lsp-gdscript.md
     - Gleam: page/lsp-gleam.md
     - GLSL: page/lsp-glsl.md
@@ -106,6 +110,7 @@ nav:
     - Lua (EmmyLua): page/lsp-emmy-lua.md
     - Lua (Lua Language Server): page/lsp-lua-language-server.md
     - Lua (Lua-Lsp): page/lsp-lua-lsp.md
+    - Fennel: page/lsp-fennel.md
     - Magik: page/lsp-magik.md
     - Markdown: page/lsp-markdown.md
     - Marksman: page/lsp-marksman.md
@@ -137,7 +142,7 @@ nav:
     - Python (Palantir deprecated): page/lsp-pyls.md
     - Python (Pyright): https://emacs-lsp.github.io/lsp-pyright
     - Python (Microsoft): https://emacs-lsp.github.io/lsp-python-ms
-    - Python (Ruff): page/lsp-ruff-lsp.md
+    - Python (Ruff): page/lsp-ruff.md
     - QML: page/lsp-qml.md
     - R: page/lsp-r.md
     - Racket (jeapostrophe): page/lsp-racket-langserver.md
